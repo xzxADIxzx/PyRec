@@ -74,7 +74,7 @@ while True:
 		break
 
 	if keyboard.is_pressed(cfg.HOTKEY_PAUSE):
-		print("Press[" + cfg.HOTKEY_PAUSE + "] to continue...")
+		print("Press [" + cfg.HOTKEY_PAUSE + "] to continue...")
 		keyboard.wait(cfg.HOTKEY_PAUSE)
 		print("Recording...")
 		time.sleep(.5 )
